@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/school_information"
-        android:name="com.example.schoolappace1122.view.SchoolInformation"
+        android:name="com.example.nycschoolsapp.view.SchoolInformation"
         tools:layout="@layout/fragment_school_information"
         android:label="NYC Schools">
         <action
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/school_detail"
-        android:name="com.example.schoolappace1122.view.SchoolDetails"
+        android:name="com.example.nycschoolsapp.view.SchoolDetails"
         tools:layout="@layout/fragment_school_details"
         android:label="School Details"/>
 

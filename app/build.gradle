@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.schoolappace1122'
+    namespace 'com.example.nycschoolsapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.schoolappace1122"
+        applicationId "com.example.nycschoolsapp"
         minSdk 22
         targetSdk 33
         versionCode 1
