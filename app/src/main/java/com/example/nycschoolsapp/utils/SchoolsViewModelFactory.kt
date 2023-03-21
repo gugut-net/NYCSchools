@@ -3,7 +3,7 @@ package com.example.nycschoolsapp.utils
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.nycschoolsapp.rest.SchoolsRepository
-import com.example.nycschools.viewmodel.SchoolsViewModel
+import com.example.nycschoolsapp.viewModel.SchoolsViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import javax.inject.Inject
 

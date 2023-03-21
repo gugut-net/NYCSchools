@@ -1,4 +1,4 @@
-package com.example.nycschools.viewmodel
+package com.example.nycschoolsapp.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -59,7 +59,7 @@ class SchoolsViewModel(
     /**
      * Method for getting the SAT Results List
      */
-    private fun getSatResults() {
+    fun getSatResults() {
         viewModelScope.launch(ioDispatcher) {
             schoolsRepository.getAllSatResults().collect {
                 _satResults.postValue(it)

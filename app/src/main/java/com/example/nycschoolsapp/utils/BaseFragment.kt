@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.nycschoolsapp.di.SchoolsApp
-import com.example.nycschools.viewmodel.SchoolsViewModel
+import com.example.nycschoolsapp.viewModel.SchoolsViewModel
 import com.example.nycschoolsapp.utils.SchoolsViewModelFactory
 import javax.inject.Inject
 
