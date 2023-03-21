@@ -3,6 +3,7 @@ package com.example.nycschoolsapp.view.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.nycschoolsapp.model.SchoolInfoResponse
 import com.example.nycschoolsapp.utils.ViewType
@@ -88,6 +89,7 @@ class SchoolsDataViewHolder(
         binding.rvSchoolsData.apply {
             adapter = schoolsDataAdapter
             layoutManager = GridLayoutManager(itemView.context,2)
+//            layoutManager = LinearLayoutManager(itemView.context, LinearLayoutManager.VERTICAL, false)
         }
     }
 }

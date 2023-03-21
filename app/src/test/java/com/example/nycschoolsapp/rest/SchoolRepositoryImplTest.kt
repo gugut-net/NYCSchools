@@ -49,7 +49,6 @@ class SchoolRepositoryImplTest {
          * MockKAnnotations.init is called when we initialized the MocK annotation
          */
         //MockKAnnotations.init()
-
         testUnitObject = SchoolsRepositoryImpl(mockServiceApi)
     }
 
